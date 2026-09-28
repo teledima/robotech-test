@@ -1,0 +1,6 @@
+websockets==14.1
+python-dotenv==1.0.1
+minio==7.2.20
+ujson==6.0.0
+pika==1.4.4
+pillow==12.3.0

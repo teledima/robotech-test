@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Robotech Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Robotech Dashboard</h1>
+        
+        <section class="section">
+            <h2>Изображения</h2>
+            <div id="images-container" class="images-grid"></div>
+            <div class="pagination">
+                <button id="prev-btn" disabled>Предыдущая</button>
+                <span id="page-info">Страница 1</span>
+                <button id="next-btn">Следующая</button>
+            </div>
+        </section>
+
+        <section class="section">
+            <h2>WebSocket события</h2>
+            <div id="ws-status" class="status disconnected">Отключено</div>
+            <div id="events-container" class="events-list"></div>
+        </section>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
